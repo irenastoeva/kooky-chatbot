@@ -1,10 +1,10 @@
-import './App.css'
+import ChatBotStart from './components/ChatBotStart'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <img src="src/assets/logo.png" className="logo" alt=""/>
-    </>
+    <div className='container'>
+      <ChatBotStart />
+    </div>
   )
 }
 
